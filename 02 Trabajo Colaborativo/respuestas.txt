@@ -1,0 +1,23 @@
+1- ¿Qué es GitHub?
+Es una plataforma que permite crear repositorios remotos, permitiendo
+un marco colaborativo entre programadores de forma remota.
+2-¿Cómo crear un repositorio en GitHub?
+Crear un repositorio en GitHub es bastante dinámico y sencillo. Primero debemos tener creada una cuenta,
+luego debemos inicializar un repositorio nuevo dentro de nuestra cuenta, seteando determinadas características o parámetros, y
+por último debemos inicializar o, mejor dicho, unir el repositorio local, creado en Git, con nuestro repositorio remoto. 
+3-¿Cómo crear una rama en Git?
+Debemos ejecutar el comando: git branch <nombre de la rama>
+4-¿Cómo cambiar a una rama en Git?
+Debemos ejecutar el comando: git checkout <nombre de la rama>. De esta manera nos moveremos a la rama que prentendemos. 
+5-¿Cómo fusionar ramas en Git?
+Para funcionar ramas debemos ejecutar:
+Primero nos colocamos en la rama donde copiaremos y luego ejecutamos el comando:
+git merge <nombre de la rama que fusionamos>
+6-¿Cómo crear un commit en Git?
+Para crear el commit en Git debemos primero subir los archivos, mediante:  git add .; luego realizamos el commit utilazando:
+git commit -m "Un comentario a realizar de los cambios generados"
+7-¿Cómo enviar un commit a GitHub?
+Para enviar un commit a GitHub lo que debemos realizar es lo siguiente:
+git push origin <nombre-rama>
+8-¿Qué es un repositorio remoto?
+Es la subida a la red de un repositorio local de Git. 
